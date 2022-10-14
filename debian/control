@@ -1,0 +1,24 @@
+Source: node-strict-uri-encode
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: suman <suman@protonmail.com>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 4.1.1
+Homepage: https://github.com/kevva/strict-uri-encode#readme
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-strict-uri-encode.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-strict-uri-encode.git
+
+Package: node-strict-uri-encode
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: stricter URI encode adhering to RFC 3986
+ Stricter URI encode adhering to [RFC 3986]. For example, 'unicorn!foobar' will
+ be encoded as 'unicorn%21foobar'.
+ .
+ Node.js is an event-based server-side JavaScript engine.

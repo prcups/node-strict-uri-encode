@@ -1,3 +1,9 @@
+node-strict-uri-encode (2.0.0-1.1deepin1) unstable; urgency=medium
+
+  fix install path by changing debhelper to dh-sequence-nodejs.
+
+ -- SignKirigami <prcups@krgm.moe>  Thu, 28 Nov 2024 23:18:49 +0800
+
 node-strict-uri-encode (2.0.0-1.1) unstable; urgency=medium
 
   * Non maintainer upload by the Reproducible Builds team.
